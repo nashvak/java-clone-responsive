@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav{
+    background-color: #3a75b0;
+}
+nav img{
+    height: 60px;
+}
+input.border-0{
+    width: 150px;
+}
+
+button.navbar-toggler{
+    border: none;
+}
+button.navbar-toggler:focus{
+    box-shadow: none;
+}
+a.nav-link,a.nav-link.active.me-3{
+    color: white;
+}
+a.nav-link:hover,a.nav-link.active.me-3:hover{
+    color: red;
+}
+input.border-0:focus{
+    outline: none;
+}
+
+/**************SECTION 1***************/
+
+a.long-link {
+    text-decoration: none;
+    
+}
+a.long-link:hover{
+    text-decoration: underline;
+}
+
+.two-links a{
+    text-decoration: none;
+}
+.two-links a:hover{
+    text-decoration: underline;
+}
+.img-container{
+    height: 100%;
+}
+.img-container img{
+    height: 100%;
+}
+
+
+/*********SECTION-2********/
+
+
+.para{
+    display: inline-block;
+font-size: 1.3rem;
+font-weight: 700;
+color: white;
+}
+#java-icon{
+    font-size: 3.5rem;
+    color: white;
+    margin-right: 2rem;
+}
+button.btn.btn-outline-light{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+/****************FOOTER************/
+.footer{
+    background-color: #e9ecef;
+    
+}
+a.nav-link2{
+    text-decoration: none;
+    
+    font-size: 0.8rem;
+}
